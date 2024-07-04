@@ -8,8 +8,8 @@ const Collaboration = () => {
     <Section crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem">
-          <h2 className="h2 mb-4 md:mb-8 text-center">
-            AI Chat App for Seamless Collaboration
+          <h2 className="h2 mb-4 md:mb-8">
+            AI Chat App for seamless collaboration
           </h2>
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
@@ -54,7 +54,7 @@ const Collaboration = () => {
                   <div
                     className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
                       index * 45
-                    } hover:scale-[1.5] transition-all cursor-pointer`}
+                    } hover:scale-[1.5] transition-all cursor-pointer `}
                   >
                     <img
                       className="m-auto"
