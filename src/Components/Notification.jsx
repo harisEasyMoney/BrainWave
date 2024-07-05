@@ -1,7 +1,7 @@
 import { notificationImages } from "../constants";
 import { notification1 } from "../assets";
 
-const Notifiaction = ({ className, title }) => {
+const Notification = ({ className, title }) => {
   return (
     <div
       className={`${
@@ -35,4 +35,4 @@ const Notifiaction = ({ className, title }) => {
   );
 };
 
-export default Notifiaction;
+export default Notification;
